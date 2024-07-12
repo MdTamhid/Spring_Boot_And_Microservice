@@ -35,6 +35,8 @@ public class Customer {
 	@NonNull
 	@Column(name="CNAME")
 	private String cmnme;
+	       
+	
 	
 	@NonNull
 	@Column(name="CADD")
