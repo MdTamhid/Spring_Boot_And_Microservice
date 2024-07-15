@@ -33,12 +33,13 @@ public class ReportGenerateService {
 	    System.out.println("Sales report on:: "+new Date());
 	}*/
 	
-	@Scheduled(cron="16 38 * * * *")
+	/*@Scheduled(cron="16 38 * * * *")
 	public void generateReport1()
 	{
 	    System.out.println("Sales report on:: "+new Date());
-	}
+	}*/
 
+	
 		
 }
 
