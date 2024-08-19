@@ -53,26 +53,28 @@
     <h2>Registration Form</h2>
     <font color="green">${succ}</font>
     <font color="red">${failed}</font>
-    <form:form action="save" method="post" modelAttribute="user">
+    <form:form action="save" method="post" modelAttribute="emp" >
         <div class="form-group">
             <label for="name">Name:</label>
-            <form:input type="text" id="name" path="name" required="true"/>
+            
+           <form:input path="name"/> 
+            <form:errors path="name" style="color:red;"></form:errors>
         </div>
         <div class="form-group">
             <label for="dob">Date of Birth:</label>
-            <form:input type="date" id="dob" path="dob" required="true"/>
+            <form:input type="date" id="dob" path="dob"/>
         </div>
         <div class="form-group">
             <label for="address">Address:</label>
-            <form:textarea id="address" path="address" rows="3" required="true"/>
+            <form:textarea id="address" path="address" rows="3"/>
         </div>
         <div class="form-group">
             <label for="mobile">Mobile:</label>
-            <form:input type="text" id="mobile" path="mobile" required="true"/>
+            <form:input type="text" id="mobile" path="mobile"/>
         </div>
         <div class="form-group">
             <label for="gender">Gender:</label>
-            <form:select id="gender" path="gender" required="true">
+            <form:select id="gender" path="gender">
                 <form:option value="">Select</form:option>
                 <form:option value="male">Male</form:option>
                 <form:option value="female">Female</form:option>

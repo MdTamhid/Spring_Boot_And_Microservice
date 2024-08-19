@@ -17,6 +17,7 @@ public class Employee {
 	@SequenceGenerator(name = "gen1" , sequenceName = "emp_seq1" , initialValue = 1000)
 	@GeneratedValue(generator = "gen1", strategy = GenerationType.SEQUENCE)
 	
+	
 	private Integer empNo;
 	private String empName;
 	private String job="CLERK";

@@ -23,7 +23,7 @@ public class MailTestRunner implements CommandLineRunner {
 				                         new float[] {1300.0f,900.0f,2300.0f,550.0f},
 		                                 fromMail,
 		                                 new String[] 
-		                             	 {"tamhidalam450@gmail.com","tamhid2554@gmail.com","Hunain.tabish@gmail.com"});
+		                             	 {"tamhidalam450@gmail.com","tamhid2554@gmail.com","Saddamhussainrr786@gmail.com"});
         System.out.println(resultMsg);
 	
 	}
